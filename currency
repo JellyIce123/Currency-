@@ -1,0 +1,55 @@
+print("welcome to our currency exchange program ") 
+
+y = True
+while True:
+    money = int(input("how much money would you like to exchange "))
+    if (money > 2500): 
+        print("the value is too high ") 
+    else: 
+        print("this can be converted ") 
+        break
+    
+currency = str(input("what currency would you like to convert to ")) 
+if currency == "usd":
+    usd = (money * 1.40) 
+else:
+    if currency == "eur":
+            eur = (money * 1.14) 
+    else:
+                if currency == "brl": 
+                    brl = (money * 4.77) 
+                else: 
+                        if currency == "jpy": 
+                            jpy = (money * 151.05) 
+                        else: 
+                                if currency == "try": 
+                                    tk = (money * 5.6) 
+                                end 
+if money < 300: 
+    fee = (money * 0.35)
+else:
+        if money > 300: 
+            fee = (money * 0.3) 
+        else: 
+                if money > 750: 
+                    fee = (money * 0.025) 
+                else:
+                        if money > 1000:
+                            fee = (money * 0.2)
+                        else:
+                                if money > 2000:
+                                    fee = (money * 0.15)
+                                    end
+total = (money + fee)
+employee = str(input("Are you an employee? (Y/N) "))
+if employee == "Y":
+    dismoney = (total * 0.05)
+    total = (total - dismoney)
+    print("5% discount will be added")
+else:
+    if employee =="N":
+        print("You won't recieve a 5% discount")
+print("You will now recieve "+str(money)+' in '+str(currency))
+print("The transaction fee is "+str(fee))
+print("The total is "+str(total))
+                
