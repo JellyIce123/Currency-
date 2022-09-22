@@ -1,0 +1,8 @@
+C:\Users\ansara2\source\repos\Pratcie\bin\Debug\Pratcie.exe.config
+C:\Users\ansara2\source\repos\Pratcie\bin\Debug\Pratcie.exe
+C:\Users\ansara2\source\repos\Pratcie\bin\Debug\Pratcie.pdb
+C:\Users\ansara2\source\repos\Pratcie\obj\Debug\Pratcie.csproj.AssemblyReference.cache
+C:\Users\ansara2\source\repos\Pratcie\obj\Debug\Pratcie.csproj.SuggestedBindingRedirects.cache
+C:\Users\ansara2\source\repos\Pratcie\obj\Debug\Pratcie.csproj.CoreCompileInputs.cache
+C:\Users\ansara2\source\repos\Pratcie\obj\Debug\Pratcie.exe
+C:\Users\ansara2\source\repos\Pratcie\obj\Debug\Pratcie.pdb
